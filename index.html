@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tushar Jindal | Software Engineer &amp; AI</title>
+<meta name="description" content="Tushar Jindal - Software Engineer &amp; AI Researcher. Portfolio showcasing projects in machine learning, generative AI, and full-stack development." />
+<meta name="keywords" content="Tushar Jindal, UBC, Artificial Intelligence, Machine Learning, Generative AI, Software Engineer, Data Science, Portfolio" />
+<meta property="og:title" content="Tushar Jindal | Software Engineer &amp; AI" />
+<meta property="og:description" content="Software Engineer specializing in AI, systems architecture, and full-stack development." />
+<link rel="icon" type="image/png" href="assets/images/resume_icon.png" />
+
+<link rel="stylesheet" href="assets/fonts.css" />
+<link rel="stylesheet" href="styles.css" />
+
+<script>
+  (function () {
+    try {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body class="unfolding">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="masthead-top">
+    <span class="masthead-edition" id="masthead-edition"></span>
+    <span class="masthead-dateline" id="masthead-dateline"></span>
+    <span class="masthead-price" id="masthead-price"></span>
+  </div>
+  <p class="masthead-eyebrow" id="masthead-eyebrow"></p>
+  <h1 class="masthead-name">
+    <span id="masthead-title"></span>
+  </h1>
+  <p class="masthead-tagline" id="masthead-tagline"></p>
+  <div class="masthead-namecycle" aria-hidden="true">
+    <span id="name-cycle-text"></span>
+  </div>
+</header>
+
+<nav class="section-index" aria-label="Sections">
+  <ul id="section-index-list"></ul>
+  <div class="section-index-actions">
+    <a id="resume-link" href="assets/resume/TjindlResumeLatest.pdf" target="_blank" rel="noopener noreferrer">Résumé</a>
+    <button id="theme-toggle" type="button" aria-label="Toggle night edition">☾</button>
+  </div>
+</nav>
+
+<main id="main">
+
+  <section id="front-page" class="page" aria-labelledby="front-page-heading">
+    <h2 id="front-page-heading" class="visually-hidden">Front Page</h2>
+
+    <div class="front-grid">
+      <article class="lead-story" aria-labelledby="hero-headline">
+        <p class="kicker" id="hero-kicker"></p>
+        <h2 id="hero-headline" class="headline headline-lead"></h2>
+        <p class="deck" id="hero-deck"></p>
+        <p class="byline-line">
+          <span id="hero-byline"></span> · <span id="hero-dateline"></span>
+        </p>
+
+        <div class="lead-body" id="hero-body"></div>
+
+        <blockquote class="pull-quote" id="hero-pullquote"></blockquote>
+
+        <p class="jump-line" id="hero-jump"></p>
+      </article>
+
+      <aside class="wire-condensed" aria-labelledby="wire-condensed-heading">
+        <h3 id="wire-condensed-heading"></h3>
+        <p class="wire-condensed-sub" id="wire-condensed-sub"></p>
+        <ul class="wire-condensed-list" id="wire-condensed-list"></ul>
+        <a class="wire-condensed-more" href="#wire-heading" id="wire-condensed-more"></a>
+      </aside>
+
+      <div class="side-rail">
+        <aside class="glance-box" aria-label="At a glance">
+          <h3 class="glance-heading" id="glance-heading"></h3>
+          <dl class="glance-rows" id="glance-rows"></dl>
+        </aside>
+
+        <aside class="weather-box" aria-label="Weather forecast">
+          <h3 class="weather-heading" id="weather-heading"></h3>
+          <p class="weather-location" id="weather-location"></p>
+          <p class="weather-conditions" id="weather-conditions"></p>
+          <dl class="weather-rows" id="weather-rows"></dl>
+        </aside>
+      </div>
+    </div>
+
+    <div class="fold-line" aria-hidden="true"></div>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"></div>
+
+  <section id="projects" class="page" aria-labelledby="projects-heading">
+    <h2 id="projects-heading" class="section-heading">Projects</h2>
+    <div class="projects-lead-mid" id="projects-lead-mid"></div>
+    <div class="projects-briefs-wrap">
+      <h3 class="briefs-heading">In Brief</h3>
+      <div class="projects-briefs" id="projects-briefs"></div>
+    </div>
+    <aside class="wire-box" aria-labelledby="wire-heading">
+      <h3 id="wire-heading"></h3>
+      <p class="wire-subhead" id="wire-subhead"></p>
+      <div id="wire-list"></div>
+    </aside>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"></div>
+
+  <section id="business" class="page" aria-labelledby="business-heading">
+    <h2 id="business-heading" class="section-heading">Business &amp; Filings</h2>
+    <div class="ledger">
+      <h3 class="ledger-subhead">Employment Record</h3>
+      <div id="experience-ledger"></div>
+      <h3 class="ledger-subhead">Academic Filing</h3>
+      <div id="education-ledger"></div>
+    </div>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"></div>
+
+  <section id="markets" class="page" aria-labelledby="markets-heading">
+    <h2 id="markets-heading" class="section-heading" data-text=""></h2>
+    <p class="markets-subhead" id="markets-subhead"></p>
+    <div class="ticker-rule" aria-hidden="true"></div>
+    <div class="markets-table-wrap">
+      <table class="markets-table" id="markets-table">
+        <thead>
+          <tr>
+            <th scope="col">Symbol</th>
+            <th scope="col">Security</th>
+            <th scope="col">Sector</th>
+          </tr>
+        </thead>
+        <tbody id="markets-tbody"></tbody>
+      </table>
+    </div>
+    <div class="ticker-rule" aria-hidden="true"></div>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"></div>
+
+  <section id="classifieds" class="page" aria-labelledby="classifieds-heading">
+    <h2 id="classifieds-heading" class="section-heading">Classifieds</h2>
+    <div class="classifieds-grid" id="classifieds-grid"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p id="footer-text"></p>
+</footer>
+
+<script src="content.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,232 @@
+{
+  "generatedAt": "2026-08-22T18:42:28.962Z",
+  "username": "tjindl",
+  "repos": [
+    {
+      "org": "vllm-project",
+      "repo": "vllm",
+      "repoUrl": "https://github.com/vllm-project/vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "language": "Python",
+      "stars": 89714,
+      "logo": "https://github.com/vllm-project.png",
+      "prs": [
+        {
+          "title": "Fix platform plugin load error message swallowed (#48277)",
+          "url": "https://github.com/vllm-project/vllm/pull/48326",
+          "number": 48326,
+          "status": "open",
+          "description": "Fixes #48277",
+          "updatedAt": "2026-07-11T09:08:00Z"
+        }
+      ]
+    },
+    {
+      "org": "NVIDIA",
+      "repo": "cudf",
+      "repoUrl": "https://github.com/NVIDIA/cudf",
+      "description": "cuDF - GPU DataFrame Library ",
+      "language": "C++",
+      "stars": 9733,
+      "logo": "https://github.com/NVIDIA.png",
+      "prs": [
+        {
+          "title": "Replace duplicate type-stringify logic with type_to_name, add print_type debug utility",
+          "url": "https://github.com/NVIDIA/cudf/pull/23230",
+          "number": 23230,
+          "status": "merged",
+          "description": "This PR addresses #17376 by swapping out some custom type stringification code in the benchmarks for the standard `cudf::type_to_name` function.",
+          "updatedAt": "2026-07-31T17:26:01Z"
+        },
+        {
+          "title": "Fix ufunc test domains to ensure valid input generation",
+          "url": "https://github.com/NVIDIA/cudf/pull/23196",
+          "number": 23196,
+          "status": "merged",
+          "description": "Closes #12352",
+          "updatedAt": "2026-07-23T23:11:35Z"
+        },
+        {
+          "title": "[FEA] Support force_ascii flag in JSON writer",
+          "url": "https://github.com/NVIDIA/cudf/pull/23177",
+          "number": 23177,
+          "status": "merged",
+          "description": "Closes #15211",
+          "updatedAt": "2026-07-20T21:06:00Z"
+        },
+        {
+          "title": "Fix IO benchmark naming consistency",
+          "url": "https://github.com/NVIDIA/cudf/pull/23180",
+          "number": 23180,
+          "status": "merged",
+          "description": "Closes #12739",
+          "updatedAt": "2026-07-13T15:06:54Z"
+        }
+      ]
+    },
+    {
+      "org": "ai-dynamo",
+      "repo": "dynamo",
+      "repoUrl": "https://github.com/ai-dynamo/dynamo",
+      "description": "A Datacenter Scale Distributed Inference Serving Framework",
+      "language": "Rust",
+      "stars": 7831,
+      "logo": "https://github.com/ai-dynamo.png",
+      "prs": [
+        {
+          "title": "fix(runtime): avoid no reactor panic during sync otlp export init",
+          "url": "https://github.com/ai-dynamo/dynamo/pull/11547",
+          "number": 11547,
+          "status": "open",
+          "description": "This PR fixes issue #11077 where calling `logging::init()` from a synchronous entrypoint would panic with \"there is no reactor running\" when OTLP export was enabled.",
+          "updatedAt": "2026-07-13T05:06:46Z"
+        }
+      ]
+    },
+    {
+      "org": "Science-Undergraduate-Society",
+      "repo": "www-v2",
+      "repoUrl": "https://github.com/Science-Undergraduate-Society/www-v2",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 2,
+      "logo": "https://github.com/Science-Undergraduate-Society.png",
+      "prs": [
+        {
+          "title": "dark mode implementation",
+          "url": "https://github.com/Science-Undergraduate-Society/www-v2/pull/77",
+          "number": 77,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-08-21T21:19:10Z"
+        },
+        {
+          "title": "Perf: Optimize homepage images using Next.js Image component",
+          "url": "https://github.com/Science-Undergraduate-Society/www-v2/pull/72",
+          "number": 72,
+          "status": "merged",
+          "description": "Replaces native HTML `<img>` tags on the homepage with the optimized Next.js `<Image>` component to improve performance metrics (LCP and CLS).",
+          "updatedAt": "2026-08-08T21:43:46Z"
+        },
+        {
+          "title": "Optimize councilor buttons and fix render blocking fonts",
+          "url": "https://github.com/Science-Undergraduate-Society/www-v2/pull/74",
+          "number": 74,
+          "status": "merged",
+          "description": "This PR improves the UX and performance of the Councils and Procedures page by refining the layout of the councilor buttons and cards, as well as fixing a global render-blocking font issue.",
+          "updatedAt": "2026-08-08T21:35:27Z"
+        }
+      ]
+    },
+    {
+      "org": "naomichenruoxi",
+      "repo": "code-lantern",
+      "repoUrl": "https://github.com/naomichenruoxi/code-lantern",
+      "description": "No more digging in the dark",
+      "language": "Python",
+      "stars": 1,
+      "logo": "https://github.com/naomichenruoxi.png",
+      "prs": [
+        {
+          "title": "Cleanup",
+          "url": "https://github.com/naomichenruoxi/code-lantern/pull/4",
+          "number": 4,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-01-30T06:33:24Z"
+        },
+        {
+          "title": "Final version",
+          "url": "https://github.com/naomichenruoxi/code-lantern/pull/3",
+          "number": 3,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2025-11-16T19:51:32Z"
+        },
+        {
+          "title": "Tushar finish the backend ",
+          "url": "https://github.com/naomichenruoxi/code-lantern/pull/1",
+          "number": 1,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2025-11-16T13:16:31Z"
+        }
+      ]
+    },
+    {
+      "org": "naomichenruoxi",
+      "repo": "Pathr",
+      "repoUrl": "https://github.com/naomichenruoxi/Pathr",
+      "description": "A carpooling platform that helps people find and share rides based on location, destination, and schedule.",
+      "language": "TypeScript",
+      "stars": 0,
+      "logo": "https://github.com/naomichenruoxi.png",
+      "prs": [
+        {
+          "title": "Tushar",
+          "url": "https://github.com/naomichenruoxi/Pathr/pull/12",
+          "number": 12,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-01-18T19:17:38Z"
+        },
+        {
+          "title": "maps",
+          "url": "https://github.com/naomichenruoxi/Pathr/pull/10",
+          "number": 10,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-01-18T17:12:38Z"
+        },
+        {
+          "title": "Tushar",
+          "url": "https://github.com/naomichenruoxi/Pathr/pull/9",
+          "number": 9,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-01-18T15:22:55Z"
+        },
+        {
+          "title": "change",
+          "url": "https://github.com/naomichenruoxi/Pathr/pull/8",
+          "number": 8,
+          "status": "merged",
+          "description": "d homepage and login",
+          "updatedAt": "2026-01-18T09:59:12Z"
+        },
+        {
+          "title": "ui improvement",
+          "url": "https://github.com/naomichenruoxi/Pathr/pull/7",
+          "number": 7,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-01-18T09:02:42Z"
+        },
+        {
+          "title": "frontend backend integration",
+          "url": "https://github.com/naomichenruoxi/Pathr/pull/6",
+          "number": 6,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-01-18T04:10:22Z"
+        },
+        {
+          "title": "added ai integration",
+          "url": "https://github.com/naomichenruoxi/Pathr/pull/2",
+          "number": 2,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-01-18T00:25:05Z"
+        },
+        {
+          "title": "Backend init",
+          "url": "https://github.com/naomichenruoxi/Pathr/pull/1",
+          "number": 1,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-01-17T23:36:59Z"
+        }
+      ]
+    }
+  ]
+}
