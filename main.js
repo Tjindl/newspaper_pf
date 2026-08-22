@@ -211,7 +211,7 @@
     var os = CONTENT.openSource;
     $("wire-heading").textContent = os.headline;
     $("wire-subhead").textContent = os.subhead;
-    $("wire-list").innerHTML = os.repos.map(function (repo) {
+    $("wire-list").innerHTML = os.repos.map(function (repo, i) {
       var prsHTML = repo.prs.map(function (pr) {
         var tagsHTML = pr.tags.map(function (t) {
           return '<span class="tech-chip">' + esc(t) + "</span>";
@@ -229,18 +229,36 @@
         );
       }).join("");
       var repoDescHTML = repo.description ? '<p class="wire-repo-desc">' + esc(repo.description) + "</p>" : "";
+
+      var merged = repo.prs.filter(function (p) { return p.status === "merged"; }).length;
+      var open = repo.prs.filter(function (p) { return p.status === "open"; }).length;
+      var countParts = [];
+      if (merged) countParts.push(merged + " merged");
+      if (open) countParts.push(open + " open");
+      var countLabel = repo.prs.length + (repo.prs.length === 1 ? " PR" : " PRs") + " — " + countParts.join(" · ");
+
       return (
-        '<article class="wire-repo">' +
+        '<details class="wire-repo" id="wire-repo-' + i + '">' +
+        '<summary class="wire-repo-summary">' +
         '<div class="wire-repo-header">' +
         '<img class="wire-repo-logo" src="' + esc(repo.logo) + '" alt="" loading="lazy" />' +
         '<a class="wire-repo-name" href="' + esc(repo.repoUrl) + '" target="_blank" rel="noopener noreferrer">' +
         '<span class="org">' + esc(repo.org) + "/</span>" + esc(repo.repo) +
-        "</a></div>" +
+        "</a>" +
+        '<span class="wire-repo-count">' + esc(countLabel) + "</span>" +
+        "</div>" +
         repoDescHTML +
-        prsHTML +
-        "</article>"
+        "</summary>" +
+        '<div class="wire-pr-list">' + prsHTML + "</div>" +
+        "</details>"
       );
     }).join("");
+
+    // Clicking the repo name should open GitHub, not just toggle the
+    // disclosure it happens to sit inside.
+    $("wire-list").querySelectorAll(".wire-repo-name").forEach(function (a) {
+      a.addEventListener("click", function (e) { e.stopPropagation(); });
+    });
   }
 
   /* ---------- Business ledger ---------- */
@@ -359,6 +377,31 @@
       });
   }
 
+  /* ---------- Print: expand every dispatch, restore after ----------
+     Closed <details> content isn't reachable via a CSS override — the
+     browser doesn't expose it to a plain `display: block !important` on
+     the child. Toggling the `open` property in JS is the part that
+     actually works across browsers. */
+  function setupPrintExpansion() {
+    var reopenIds = [];
+    window.addEventListener("beforeprint", function () {
+      reopenIds = [];
+      document.querySelectorAll(".wire-repo").forEach(function (d) {
+        if (!d.open) {
+          d.open = true;
+          reopenIds.push(d.id);
+        }
+      });
+    });
+    window.addEventListener("afterprint", function () {
+      reopenIds.forEach(function (id) {
+        var d = document.getElementById(id);
+        if (d) d.open = false;
+      });
+      reopenIds = [];
+    });
+  }
+
   /* ---------- Boot ---------- */
   function init() {
     renderMasthead();
@@ -376,6 +419,7 @@
     renderClassifieds();
     renderFooter();
     refreshWireDispatchesFromLiveData();
+    setupPrintExpansion();
   }
 
   if (document.readyState === "loading") {
