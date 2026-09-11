@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T16:59:26.162Z",
+  "generatedAt": "2026-09-11T17:01:19.088Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 91428,
+      "stars": 91509,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
@@ -70,7 +70,7 @@
       "repoUrl": "https://github.com/ai-dynamo/dynamo",
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
-      "stars": 8019,
+      "stars": 8029,
       "logo": "https://github.com/ai-dynamo.png",
       "prs": [
         {
