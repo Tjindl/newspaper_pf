@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T16:19:01.221Z",
+  "generatedAt": "2026-09-13T16:57:57.336Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 91573,
+      "stars": 91630,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
@@ -27,7 +27,7 @@
       "repoUrl": "https://github.com/NVIDIA/cudf",
       "description": "cuDF - GPU DataFrame Library ",
       "language": "C++",
-      "stars": 9749,
+      "stars": 9750,
       "logo": "https://github.com/NVIDIA.png",
       "prs": [
         {
@@ -70,7 +70,7 @@
       "repoUrl": "https://github.com/ai-dynamo/dynamo",
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
-      "stars": 8043,
+      "stars": 8049,
       "logo": "https://github.com/ai-dynamo.png",
       "prs": [
         {
@@ -92,6 +92,14 @@
       "stars": 2,
       "logo": "https://github.com/Science-Undergraduate-Society.png",
       "prs": [
+        {
+          "title": "performance updates and exec updates",
+          "url": "https://github.com/Science-Undergraduate-Society/www-v2/pull/79",
+          "number": 79,
+          "status": "open",
+          "description": "This PR updates the executive roster for the 2026/2027 term and introduces significant frontend performance optimizations by migrating away from raw HTML `<img>` tags to Next.js `<Image />` components.",
+          "updatedAt": "2026-09-12T19:46:16Z"
+        },
         {
           "title": "dark mode implementation",
           "url": "https://github.com/Science-Undergraduate-Society/www-v2/pull/77",
