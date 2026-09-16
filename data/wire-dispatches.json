@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T17:40:18.109Z",
+  "generatedAt": "2026-09-16T17:37:30.083Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 91843,
+      "stars": 91924,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
@@ -70,7 +70,7 @@
       "repoUrl": "https://github.com/ai-dynamo/dynamo",
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
-      "stars": 8085,
+      "stars": 8089,
       "logo": "https://github.com/ai-dynamo.png",
       "prs": [
         {
@@ -123,6 +123,25 @@
           "status": "merged",
           "description": "This PR improves the UX and performance of the Councils and Procedures page by refining the layout of the councilor buttons and cards, as well as fixing a global render-blocking font issue.",
           "updatedAt": "2026-08-08T21:35:27Z"
+        }
+      ]
+    },
+    {
+      "org": "Science-Undergraduate-Society",
+      "repo": "shop",
+      "repoUrl": "https://github.com/Science-Undergraduate-Society/shop",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 1,
+      "logo": "https://github.com/Science-Undergraduate-Society.png",
+      "prs": [
+        {
+          "title": "stock updates",
+          "url": "https://github.com/Science-Undergraduate-Society/shop/pull/13",
+          "number": 13,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-09-15T19:31:02Z"
         }
       ]
     },
