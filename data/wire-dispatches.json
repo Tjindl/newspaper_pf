@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T17:37:59.733Z",
+  "generatedAt": "2026-09-18T17:04:38.206Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 92021,
+      "stars": 92106,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
@@ -27,7 +27,7 @@
       "repoUrl": "https://github.com/NVIDIA/cudf",
       "description": "cuDF - GPU DataFrame Library ",
       "language": "C++",
-      "stars": 9752,
+      "stars": 9754,
       "logo": "https://github.com/NVIDIA.png",
       "prs": [
         {
@@ -70,7 +70,7 @@
       "repoUrl": "https://github.com/ai-dynamo/dynamo",
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
-      "stars": 8099,
+      "stars": 8114,
       "logo": "https://github.com/ai-dynamo.png",
       "prs": [
         {
@@ -96,9 +96,9 @@
           "title": "performance updates and exec updates",
           "url": "https://github.com/Science-Undergraduate-Society/www-v2/pull/79",
           "number": 79,
-          "status": "open",
+          "status": "merged",
           "description": "This PR updates the executive roster for the 2026/2027 term and introduces significant frontend performance optimizations by migrating away from raw HTML `<img>` tags to Next.js `<Image />` components.",
-          "updatedAt": "2026-09-12T19:46:16Z"
+          "updatedAt": "2026-09-18T00:53:59Z"
         },
         {
           "title": "dark mode implementation",
