@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T17:51:20.844Z",
+  "generatedAt": "2026-09-24T17:51:50.915Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 92528,
+      "stars": 92628,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
@@ -27,7 +27,7 @@
       "repoUrl": "https://github.com/NVIDIA/cudf",
       "description": "cuDF - GPU DataFrame Library ",
       "language": "C++",
-      "stars": 9759,
+      "stars": 9761,
       "logo": "https://github.com/NVIDIA.png",
       "prs": [
         {
@@ -70,7 +70,7 @@
       "repoUrl": "https://github.com/ai-dynamo/dynamo",
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
-      "stars": 8152,
+      "stars": 8155,
       "logo": "https://github.com/ai-dynamo.png",
       "prs": [
         {
