@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T17:34:31.328Z",
+  "generatedAt": "2026-10-05T21:11:12.875Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 93169,
+      "stars": 93223,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
@@ -70,7 +70,7 @@
       "repoUrl": "https://github.com/ai-dynamo/dynamo",
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
-      "stars": 8218,
+      "stars": 8223,
       "logo": "https://github.com/ai-dynamo.png",
       "prs": [
         {
@@ -92,6 +92,14 @@
       "stars": 2,
       "logo": "https://github.com/Science-Undergraduate-Society.png",
       "prs": [
+        {
+          "title": "doc updates and election chair updates",
+          "url": "https://github.com/Science-Undergraduate-Society/www-v2/pull/88",
+          "number": 88,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-10-05T07:54:54Z"
+        },
         {
           "title": "performance updates and exec updates",
           "url": "https://github.com/Science-Undergraduate-Society/www-v2/pull/79",
@@ -135,6 +143,14 @@
       "stars": 1,
       "logo": "https://github.com/Science-Undergraduate-Society.png",
       "prs": [
+        {
+          "title": "added patch photos",
+          "url": "https://github.com/Science-Undergraduate-Society/shop/pull/14",
+          "number": 14,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-10-04T18:07:01Z"
+        },
         {
           "title": "stock updates",
           "url": "https://github.com/Science-Undergraduate-Society/shop/pull/13",
