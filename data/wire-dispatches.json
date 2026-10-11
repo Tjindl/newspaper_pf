@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:51:19.494Z",
+  "generatedAt": "2026-10-11T18:04:22.821Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 93513,
+      "stars": 93565,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
@@ -70,7 +70,7 @@
       "repoUrl": "https://github.com/ai-dynamo/dynamo",
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
-      "stars": 8256,
+      "stars": 8259,
       "logo": "https://github.com/ai-dynamo.png",
       "prs": [
         {
@@ -92,6 +92,14 @@
       "stars": 2,
       "logo": "https://github.com/Science-Undergraduate-Society.png",
       "prs": [
+        {
+          "title": "vpfinancechanges",
+          "url": "https://github.com/Science-Undergraduate-Society/www-v2/pull/94",
+          "number": 94,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-10-11T02:20:08Z"
+        },
         {
           "title": "removed acknowledgement and updated date",
           "url": "https://github.com/Science-Undergraduate-Society/www-v2/pull/92",
