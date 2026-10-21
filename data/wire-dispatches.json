@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T17:58:09.436Z",
+  "generatedAt": "2026-10-21T18:01:28.412Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 94352,
+      "stars": 94771,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
@@ -27,7 +27,7 @@
       "repoUrl": "https://github.com/NVIDIA/cudf",
       "description": "cuDF - GPU DataFrame Library ",
       "language": "C++",
-      "stars": 9780,
+      "stars": 9781,
       "logo": "https://github.com/NVIDIA.png",
       "prs": [
         {
@@ -70,7 +70,7 @@
       "repoUrl": "https://github.com/ai-dynamo/dynamo",
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
-      "stars": 8343,
+      "stars": 8352,
       "logo": "https://github.com/ai-dynamo.png",
       "prs": [
         {
@@ -92,6 +92,14 @@
       "stars": 2,
       "logo": "https://github.com/Science-Undergraduate-Society.png",
       "prs": [
+        {
+          "title": "alex chui description and tutoring mailing list",
+          "url": "https://github.com/Science-Undergraduate-Society/www-v2/pull/99",
+          "number": 99,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-10-20T20:14:33Z"
+        },
         {
           "title": "added alyssa wong and angela qian",
           "url": "https://github.com/Science-Undergraduate-Society/www-v2/pull/96",
