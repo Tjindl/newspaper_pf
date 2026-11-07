@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T19:56:55.719Z",
+  "generatedAt": "2026-11-07T18:01:47.290Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 96472,
+      "stars": 96519,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
@@ -70,7 +70,7 @@
       "repoUrl": "https://github.com/ai-dynamo/dynamo",
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
-      "stars": 8451,
+      "stars": 8453,
       "logo": "https://github.com/ai-dynamo.png",
       "prs": [
         {
@@ -79,7 +79,7 @@
           "number": 11547,
           "status": "open",
           "description": "This PR fixes issue #11077 where calling `logging::init()` from a synchronous entrypoint would panic with \"there is no reactor running\" when OTLP export was enabled.",
-          "updatedAt": "2026-07-13T05:06:46Z"
+          "updatedAt": "2026-11-07T09:34:25Z"
         }
       ]
     },
