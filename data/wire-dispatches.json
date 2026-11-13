@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T20:48:42.170Z",
+  "generatedAt": "2026-11-13T20:28:49.254Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 96831,
+      "stars": 96869,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
@@ -27,7 +27,7 @@
       "repoUrl": "https://github.com/NVIDIA/cudf",
       "description": "cuDF - GPU DataFrame Library ",
       "language": "C++",
-      "stars": 9799,
+      "stars": 9800,
       "logo": "https://github.com/NVIDIA.png",
       "prs": [
         {
@@ -61,25 +61,6 @@
           "status": "merged",
           "description": "Closes #12739",
           "updatedAt": "2026-07-13T15:06:54Z"
-        }
-      ]
-    },
-    {
-      "org": "ai-dynamo",
-      "repo": "dynamo",
-      "repoUrl": "https://github.com/ai-dynamo/dynamo",
-      "description": "A Datacenter Scale Distributed Inference Serving Framework",
-      "language": "Rust",
-      "stars": 8478,
-      "logo": "https://github.com/ai-dynamo.png",
-      "prs": [
-        {
-          "title": "fix(runtime): avoid no reactor panic during sync otlp export init",
-          "url": "https://github.com/ai-dynamo/dynamo/pull/11547",
-          "number": 11547,
-          "status": "open",
-          "description": "This PR fixes issue #11077 where calling `logging::init()` from a synchronous entrypoint would panic with \"there is no reactor running\" when OTLP export was enabled.",
-          "updatedAt": "2026-11-07T09:34:25Z"
         }
       ]
     },
