@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T21:45:22.011Z",
+  "generatedAt": "2026-11-18T21:25:46.019Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 97112,
+      "stars": 97178,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
