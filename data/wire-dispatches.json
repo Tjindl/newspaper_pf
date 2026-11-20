@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T21:31:58.687Z",
+  "generatedAt": "2026-11-20T21:04:26.234Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 97220,
+      "stars": 97276,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
@@ -27,7 +27,7 @@
       "repoUrl": "https://github.com/NVIDIA/cudf",
       "description": "cuDF - GPU DataFrame Library ",
       "language": "C++",
-      "stars": 9800,
+      "stars": 9801,
       "logo": "https://github.com/NVIDIA.png",
       "prs": [
         {
