@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T21:04:26.234Z",
+  "generatedAt": "2026-11-21T20:05:19.107Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 97276,
+      "stars": 97316,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
@@ -27,7 +27,7 @@
       "repoUrl": "https://github.com/NVIDIA/cudf",
       "description": "cuDF - GPU DataFrame Library ",
       "language": "C++",
-      "stars": 9801,
+      "stars": 9802,
       "logo": "https://github.com/NVIDIA.png",
       "prs": [
         {
@@ -222,6 +222,25 @@
           "status": "merged",
           "description": "",
           "updatedAt": "2025-11-16T13:16:31Z"
+        }
+      ]
+    },
+    {
+      "org": "Science-Undergraduate-Society",
+      "repo": "hackathon-info-2026",
+      "repoUrl": "https://github.com/Science-Undergraduate-Society/hackathon-info-2026",
+      "description": "portal for hackathon attendees at SUS UBC's hackathons",
+      "language": "TypeScript",
+      "stars": 0,
+      "logo": "https://github.com/Science-Undergraduate-Society.png",
+      "prs": [
+        {
+          "title": "date added",
+          "url": "https://github.com/Science-Undergraduate-Society/hackathon-info-2026/pull/18",
+          "number": 18,
+          "status": "merged",
+          "description": "",
+          "updatedAt": "2026-11-21T06:15:44Z"
         }
       ]
     },
