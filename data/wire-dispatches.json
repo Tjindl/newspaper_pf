@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T20:20:35.398Z",
+  "generatedAt": "2026-11-24T00:49:53.399Z",
   "username": "tjindl",
   "repos": [
     {
@@ -8,7 +8,7 @@
       "repoUrl": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 97354,
+      "stars": 97423,
       "logo": "https://github.com/vllm-project.png",
       "prs": [
         {
@@ -27,7 +27,7 @@
       "repoUrl": "https://github.com/NVIDIA/cudf",
       "description": "cuDF - GPU DataFrame Library ",
       "language": "C++",
-      "stars": 9802,
+      "stars": 9803,
       "logo": "https://github.com/NVIDIA.png",
       "prs": [
         {
@@ -222,6 +222,33 @@
           "status": "merged",
           "description": "",
           "updatedAt": "2025-11-16T13:16:31Z"
+        }
+      ]
+    },
+    {
+      "org": "Science-Undergraduate-Society",
+      "repo": "hack-the-coast-apps",
+      "repoUrl": "https://github.com/Science-Undergraduate-Society/hack-the-coast-apps",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 0,
+      "logo": "https://github.com/Science-Undergraduate-Society.png",
+      "prs": [
+        {
+          "title": "Give jwks-rsa the CommonJS build of jose to fix API 500s",
+          "url": "https://github.com/Science-Undergraduate-Society/hack-the-coast-apps/pull/6",
+          "number": 6,
+          "status": "merged",
+          "description": "Adds an npm override so `jwks-rsa` uses `jose` 5.10.0 instead of 6.x:",
+          "updatedAt": "2026-11-23T02:00:47Z"
+        },
+        {
+          "title": "Pin Node.js 24.x for Vercel builds and functions",
+          "url": "https://github.com/Science-Undergraduate-Society/hack-the-coast-apps/pull/5",
+          "number": 5,
+          "status": "merged",
+          "description": "Adds `\"engines\": { \"node\": \"24.x\" }` to `package.json` and to the root entry in `package-lock.json`. Nothing else changes.",
+          "updatedAt": "2026-11-23T01:53:17Z"
         }
       ]
     },
